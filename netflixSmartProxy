@@ -1,5 +1,19 @@
-proxies:
+
+Proxy:
   - name: netflixSmart
     type: http
     server: 192.168.1.5
-    port: 10802
+    port: 10803
+  - name: bandwagon
+    type: http
+    server: 192.168.1.5
+    port: 1081
+Proxy Group:
+
+- name: default
+  type: select
+  proxies:
+
+  
+Rule:
+- MATCH,default
