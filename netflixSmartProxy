@@ -1,0 +1,6 @@
+NetflixSmart:
+  # http
+  - name: "NetflixSmart"
+    type: http
+    server: 192.168.1.5
+    port: 10803
