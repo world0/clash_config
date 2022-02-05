@@ -1,4 +1,4 @@
-NetflixSmart:
+proxies:
   # http
   - name: "NetflixSmart"
     type: http
