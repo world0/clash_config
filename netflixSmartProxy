@@ -1,6 +1,12 @@
 proxies:
-  # http
-  - name: "NetflixSmart"
+  - name: netflixSmart
     type: http
     server: 192.168.1.5
     port: 10803
+proxy-groups:
+  - name: netflixSmartProxy
+    type: select
+    proxies:
+      - netflixSmart
+rules:
+  - "MATCH"
