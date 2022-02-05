@@ -13,7 +13,7 @@ proxy-group:
 - name: default
   type: select
   proxies:
-	- netflixSmart
+      - netflixSmart
 
   
 Rule:
