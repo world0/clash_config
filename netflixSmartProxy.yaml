@@ -1,4 +1,3 @@
-
 proxies:
   - name: netflixSmart
     type: http
@@ -8,13 +7,10 @@ proxies:
     type: http
     server: 192.168.1.5
     port: 1081
-proxy-group:
 
-- name: default
-  type: select
-  proxies:
+proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
       - netflixSmart
-
-  
-Rule:
-- MATCH,default
+	  - bandwagon
