@@ -14,3 +14,6 @@ proxy-groups:
     proxies:
       - netflixSmart
       - bandwagon
+
+rules:
+  - MATCH, Proxy
