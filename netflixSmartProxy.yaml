@@ -13,4 +13,4 @@ proxy-groups:
     type: select
     proxies:
       - netflixSmart
-	  - bandwagon
+      - bandwagon
